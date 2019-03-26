@@ -13,5 +13,5 @@ app.listen(port,()=>{
 
 app.get('/',(req,res)=>{
     console.log("this is the get api");
-    res.send('got it');
+    res.send('This is My first Web App');
 })
